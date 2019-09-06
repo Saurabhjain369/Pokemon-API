@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/defaultFragment">
+
+    <fragment
+        android:id="@+id/defaultFragment"
+        android:name="com.example.navigationdrawerwithpokemonapi.defaultFragment"
+        android:label="Logo of Pokemon"
+        tools:layout="@layout/fragment1" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.navigationdrawerwithpokemonapi.FirstFragment"
+        android:label="List of Pokemons"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/pokemoneDesc"
+        android:name="com.example.navigationdrawerwithpokemonapi.PokemoneDesc"
+        android:label="Description of Pokemons"
+        tools:layout="@layout/fragment_pokemone_desc" />
+</navigation>
